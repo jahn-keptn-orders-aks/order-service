@@ -4,8 +4,8 @@ export URL=$1
 clear
 if [ $# -lt 1 ]
 then
-  echo "missing arguments. Expect ./quicktest.sh <order url>"
-  echo "example: http://abc.us-west-2.elb.amazonaws.com"
+  echo "missing arguments. Expect ./quicktest.sh <order base url>"
+  echo "example: http://localhost:8080"
   exit 1
 fi
 
